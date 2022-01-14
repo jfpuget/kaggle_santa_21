@@ -167,7 +167,7 @@ the code for this model is in the solution_1440.ipynb notebook.
 
 # Adding wildcards
 
-This solution of th eprevious model contains a number of truncated 2 cycles of the form 
+This solution of the previous model contains a number of truncated 2 cycles of the form 
 
 `12345672134567231456723415672345167234561723456`
 
@@ -189,7 +189,7 @@ A quick fix is to remove the mandatory at the start of the string, which yields 
 ```
 Doing this twice per solution string yields a 2438 solution.
 
-We can do better.  Indeed, we can now prepend another mandatory.  IN this case we can use 1273456.  If we prepend it with overlap then we get this string:
+We can do better.  Indeed, we can now prepend another mandatory.  In this case we can use 1273456.  If we prepend it with overlap then we get this string:
 
 `127345672134567231456723415672345167234561*234567`
 
