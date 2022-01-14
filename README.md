@@ -119,7 +119,7 @@ The objective is the same as before.  It is the sum of the costs time the next(p
 
 Solving this model yields again a solution close to 7320. I then wrote  a little cycle extraction, that starts from a non zero next(p1, p2) variable, then looks for which variable next(p2, p3) is no zero, etc, until it comes back.  The hope was ot get 3 cycles of equal length, but this did not happen: Many more cycles were found.  My subtour elimination constraints were not strong enough.
 
-# a Better model
+# A Better model
 
 I then added a variant of Miller–Tucker–Zemlin (MTZ) constraints to eliminate all subtours.  The difference is that I have implicit arcs via the start and end variables.  Another difference is that we look for 3 paths, not one.  For this I add one variable u(p) for every node p.  It represents the rank of p in the path that contains p.  The constraints are:
 
