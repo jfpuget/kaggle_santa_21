@@ -239,7 +239,7 @@ For the string  12345672134567231456723415672345167234561*234765 we need to add 
 
 5617234 to 6152347 ( `561*234 to 61*2347 ` )
 
-1523476 to 1234765 (`1*23476 to*234765`)
+1523476 to 1234765 (`1*23476 to *234765`)
 
 There is a catch though.  The extra mandatory must be an unused one, which means we need to explicitly represent the 3 mandatory duplicates in our model.  Rather that doing it I only added the first wildcard arcs, and added constraint to make sure an unused mandatory will be available.
 
