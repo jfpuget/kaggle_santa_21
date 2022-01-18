@@ -92,7 +92,7 @@ The resulting model has 24217200 integer variables,  13200 constraints, and 4338
 
 Assume we are given a 3 string solution of value L of the original problem. If we append these strings and turn them into a cycle, then we get a cycle of length at most 3 * L. Therefore 3 * L >=  7317.6 because the MILP is a relaxation. Then L >= 7317.6 / 3 = 2439.2  . Given L is integral, L >= 2440.
 
-This proves the [lowerbound of 2440 I shared during the competition](https://www.kaggle.com/c/santa-2021/discussion/292841). It was later [confirmed by Wuilliam Cook using his Concorde solver](https://www.kaggle.com/c/santa-2021/discussion/294139).
+This proves the [lowerbound of 2440 I shared during the competition](https://www.kaggle.com/c/santa-2021/discussion/292841). It was later [confirmed by William Cook using his Concorde solver](https://www.kaggle.com/c/santa-2021/discussion/294139).
 
 I will now describe how a MILP model was used to find a 2440 solution.
 
