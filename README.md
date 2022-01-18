@@ -51,7 +51,7 @@ The next concept is that of 1-cycle.  It is made of all the rotations of a given
 
 If we cut the cycle some arc, say the first one above, and merge the strings with overlap, then we get a string of length 13:
 
-234567123456
+2345671234567
 
 That's  a general property: the length of a string obtained by breaking a cycle and merging its permutations is 7 plus the sum of the cost of the arcs in the cycle minus the arc we broke.
 
