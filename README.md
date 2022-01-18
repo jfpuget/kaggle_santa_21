@@ -163,7 +163,7 @@ I studied the previous model solution, and found few things:
 
 The resulting model solves in about 5 minutes, with a number of cycles.  When the cycles are grouped by class and concatenated we get 3 strings of length 2160.  Each of these string contain 80 mandatory.  By appending the 40 missing mandatory we get 3 strings of length 2440 who meet all the original problem constraints.
 
-the code for this model is in the solution_1440.ipynb notebook.
+the code for this model is in the solution_2440.ipynb notebook.
 
 # Adding wildcards
 
